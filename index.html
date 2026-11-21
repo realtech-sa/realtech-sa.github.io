@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary SEO (Arabic first; script.js swaps these when the language changes) -->
+  <title>ريل تك | تصميم وتطوير المواقع الإلكترونية للشركات</title>
+  <meta name="description" content="ريل تك: تصميم وتطوير مواقع إلكترونية احترافية باللغتين العربية والإنجليزية، إصلاح أخطاء المواقع، ودعم فني مستمر للشركات والعيادات والمكاتب في السعودية والخليج.">
+  <link rel="canonical" href="https://real-tech.mooo.com/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#006C35">
+
+  <!-- Open Graph (used by WhatsApp link previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Real Tech | ريل تك">
+  <meta property="og:url" content="https://real-tech.mooo.com/">
+  <meta property="og:title" content="ريل تك | تصميم وتطوير المواقع الإلكترونية للشركات">
+  <meta property="og:description" content="مواقع احترافية سريعة باللغتين العربية والإنجليزية، إصلاح أخطاء المواقع، ودعم فني مستمر. تواصل معنا عبر واتساب.">
+  <meta property="og:image" content="https://real-tech.mooo.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ريل تك | Real Tech — تصميم وتطوير المواقع">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ريل تك | تصميم وتطوير المواقع الإلكترونية للشركات">
+  <meta name="twitter:description" content="مواقع احترافية سريعة باللغتين العربية والإنجليزية، إصلاح أخطاء المواقع، ودعم فني مستمر.">
+  <meta name="twitter:image" content="https://real-tech.mooo.com/assets/og-image.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Fonts: loaded without blocking first paint; font-display=swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Inter:wght@400;600;700&display=swap"></noscript>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Flag JS early so scroll animations never flash hidden content when JS is off -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Structured data: Organization (no address on purpose) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Real Tech",
+    "alternateName": "ريل تك",
+    "url": "https://real-tech.mooo.com/",
+    "logo": "https://real-tech.mooo.com/assets/apple-touch-icon.png",
+    "description": "Website design and development, website bug fixing and ongoing website support in Arabic and English.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "House 7, Block C, Avenue 2, Chandrima Model Town",
+      "addressLocality": "Mohammadpur, Dhaka",
+      "addressCountry": "BD"
+    },
+    "areaServed": ["SA", "AE", "KW", "QA", "BH", "OM"],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+8801621445454",
+      "url": "https://wa.me/8801621445454",
+      "availableLanguage": ["Arabic", "English"]
+    }
+  }
+  </script>
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- SVG icon sprite (inline = no extra requests) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path d="M12 2.2a9.8 9.8 0 0 0-8.4 14.8L2.3 21.7l4.8-1.3A9.8 9.8 0 1 0 12 2.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M8.7 7.3c.2-.4.5-.5.8-.5h.6c.2 0 .4.1.5.4l.8 1.9c.1.3 0 .5-.1.7l-.5.6c-.2.2-.2.4-.1.6a7.8 7.8 0 0 0 3.7 3.3c.2.1.4.1.6-.1l.7-.8c.2-.2.4-.3.7-.2l1.8.9c.3.1.4.3.4.5 0 .5-.2 1.2-.7 1.6-.5.5-1.3.8-2.1.7a9.6 9.6 0 0 1-4.6-2.2 9.7 9.7 0 0 1-2.8-4.4c-.3-1.1 0-2.3.3-3z" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-web" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M10 8.5l-2 2 2 2M14 8.5l2 2-2 2"/>
+      </symbol>
+      <symbol id="i-fix" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-5.8 5.8a1.4 1.4 0 0 0 0 2l1 1a1.4 1.4 0 0 0 2 0l5.8-5.8a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/>
+      </symbol>
+      <symbol id="i-support" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/><path d="M19 20a3 3 0 0 1-3 2h-3"/>
+      </symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+      </symbol>
+      <symbol id="i-fast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M12.8 7l-2.6 4.5h3.6L11.2 16"/>
+      </symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/><path d="M8.5 11h7M8.5 14h4"/>
+      </symbol>
+      <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="8" cy="15" r="4"/><path d="M10.8 12.2l8.7-8.7M17 6l2.5 2.5M14.5 8.5l2 2"/>
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12.5l4.5 4.5L19 7.5"/>
+      </symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M13 6l6 6-6 6"/>
+      </symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 9l6 6 6-6"/>
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21.5s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9.5" r="2.6"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main" data-i18n="skip">تخطَّ إلى المحتوى</a>
+
+  <!-- ===================== 1. Header ===================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" data-i18n-aria="aria.home" aria-label="ريل تك - الصفحة الرئيسية">
+        <span class="logo-mark" aria-hidden="true">RT</span>
+        <span class="logo-text">
+          <span class="logo-ar" lang="ar">ريل تك</span>
+          <span class="logo-sep" aria-hidden="true">|</span>
+          <span class="logo-en" lang="en">Real Tech</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" data-i18n-aria="aria.nav" aria-label="القائمة الرئيسية">
+        <ul class="nav-list">
+          <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="#why-us" data-i18n="nav.why">لماذا نحن</a></li>
+          <li><a href="#how-we-work" data-i18n="nav.how">آلية العمل</a></li>
+          <li><a href="#sample-work" data-i18n="nav.work">نماذج أعمال</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+        <a class="btn btn-primary nav-wa" href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+          <span data-i18n="cta.btn">راسلنا على واتساب</span>
+        </a>
+      </nav>
+
+      <div class="lang-switch" role="group" data-i18n-aria="aria.lang" aria-label="اختيار اللغة">
+        <button type="button" class="lang-btn" data-lang="ar" lang="ar" aria-pressed="true">AR</button>
+        <button type="button" class="lang-btn" data-lang="en" lang="en" aria-pressed="false">EN</button>
+      </div>
+
+      <a class="btn btn-primary btn-sm header-wa" href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener">
+        <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+        <span data-i18n="header.wa">واتساب</span>
+      </a>
+
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="فتح القائمة">
+        <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== 2. Hero ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-badge"><span class="badge-dot" aria-hidden="true"></span><span data-i18n="hero.badge">تصميم • تطوير • دعم فني</span></p>
+          <h1 id="hero-title" data-i18n="hero.title">نبني لك موقعاً إلكترونياً احترافياً يجلب لك عملاء أكثر</h1>
+          <p class="hero-sub" data-i18n="hero.sub">تصميم وتطوير المواقع، إصلاح الأخطاء، ودعم فني مستمر — بسرعة وجودة وبأسعار مناسبة.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span data-i18n="hero.cta1">تواصل معنا عبر واتساب</span>
+            </a>
+            <a class="btn btn-secondary btn-lg" href="#services">
+              <span data-i18n="hero.cta2">شاهد خدماتنا</span>
+              <svg class="icon flip-rtl" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+          <ul class="hero-points">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="hero.p1">عربي وإنجليزي</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="hero.p2">متوافق مع الجوال</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="hero.p3">تواصل مباشر</span></li>
+          </ul>
+        </div>
+
+        <!-- Decorative CSS-built browser + phone mockup -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mock-browser">
+            <div class="mock-bar">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="mock-url" dir="ltr">www.your-business.com</span>
+            </div>
+            <div class="mock-site">
+              <div class="mock-nav"><span class="mock-logo"></span><span class="mock-links"><i></i><i></i><i></i></span></div>
+              <div class="mock-hero">
+                <strong data-i18n="mock.title">موقعك الاحترافي</strong>
+                <span class="line"></span><span class="line short"></span>
+                <span class="mock-btns"><span class="mbtn" data-i18n="mock.btn">احجز الآن</span><span class="mbtn ghost" data-i18n="mock.btn2">اتصل بنا</span></span>
+              </div>
+              <div class="mock-cards"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="mock-phone">
+            <div class="mock-phone-screen">
+              <div class="mp-head"><span class="mp-logo"></span><strong data-i18n="mock.welcome">مرحباً بك</strong></div>
+              <span class="line"></span><span class="line short"></span>
+              <span class="mp-btn"></span>
+              <span class="mp-card"></span><span class="mp-card"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. Services ===================== -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="services.eyebrow">خدماتنا</p>
+          <h2 id="services-title" data-i18n="services.title">كل ما يحتاجه موقعك في مكان واحد</h2>
+          <p class="section-sub" data-i18n="services.sub">خدمات واضحة تساعد نشاطك التجاري على الظهور بشكل احترافي على الإنترنت.</p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card service-card reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-web"/></svg></span>
+            <h3 data-i18n="s1.title">تصميم وتطوير المواقع</h3>
+            <p data-i18n="s1.desc">مواقع سريعة ومتوافقة مع الجوال باللغتين العربية والإنجليزية للشركات والعيادات والمكاتب.</p>
+            <ul class="check-list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s1.b1">تصميم مخصص لهوية نشاطك</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s1.b2">سرعة تحميل عالية</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s1.b3">تهيئة أساسية لمحركات البحث (SEO)</span></li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/8801621445454" data-wa="s1" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span data-i18n="btn.request">اطلب الخدمة</span><span class="sr-only">: <span data-i18n="s1.title">تصميم وتطوير المواقع</span></span>
+            </a>
+          </article>
+
+          <article class="card service-card reveal" style="--d:1">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-fix"/></svg></span>
+            <h3 data-i18n="s2.title">إصلاح أخطاء المواقع</h3>
+            <p data-i18n="s2.desc">نكتشف المشكلة ونصلحها: بطء الموقع، أعطال، أخطاء النماذج، ومشاكل العرض على الجوال.</p>
+            <ul class="check-list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s2.b1">تشخيص واضح للمشكلة قبل البدء</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s2.b2">تحسين سرعة الموقع</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s2.b3">إصلاح مشاكل العرض على الجوال</span></li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/8801621445454" data-wa="s2" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span data-i18n="btn.request">اطلب الخدمة</span><span class="sr-only">: <span data-i18n="s2.title">إصلاح أخطاء المواقع</span></span>
+            </a>
+          </article>
+
+          <article class="card service-card reveal" style="--d:2">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-support"/></svg></span>
+            <h3 data-i18n="s3.title">الدعم الفني للمواقع</h3>
+            <p data-i18n="s3.desc">صيانة وتحديثات ونسخ احتياطية ومتابعة شهرية ليبقى موقعك يعمل بكفاءة.</p>
+            <ul class="check-list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s3.b1">تحديث المحتوى والإضافات</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s3.b2">نسخ احتياطية منتظمة</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="s3.b3">متابعة شهرية للموقع</span></li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/8801621445454" data-wa="s3" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span data-i18n="btn.request">اطلب الخدمة</span><span class="sr-only">: <span data-i18n="s3.title">الدعم الفني للمواقع</span></span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. Why Us ===================== -->
+    <section class="section section-soft" id="why-us" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="why.eyebrow">لماذا ريل تك؟</p>
+          <h2 id="why-title" data-i18n="why.title">شريك تقني يفهم احتياجك</h2>
+        </header>
+
+        <div class="grid grid-4">
+          <article class="card feature reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-globe"/></svg></span>
+            <h3 data-i18n="w1.title">تصميم عربي أولاً</h3>
+            <p data-i18n="w1.desc">اتجاه من اليمين لليسار مضبوط بعناية، وخطوط عربية واضحة، ونسخة إنجليزية عند الحاجة.</p>
+          </article>
+          <article class="card feature reveal" style="--d:1">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-fast"/></svg></span>
+            <h3 data-i18n="w2.title">سريع ومتوافق مع الجوال</h3>
+            <p data-i18n="w2.desc">مواقع خفيفة تعمل بسلاسة على الجوال، حيث يتصفح أغلب عملائك.</p>
+          </article>
+          <article class="card feature reveal" style="--d:2">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-chat"/></svg></span>
+            <h3 data-i18n="w3.title">تواصل مباشر عبر واتساب</h3>
+            <p data-i18n="w3.desc">تتحدث مباشرة مع من ينفّذ عملك، دون وسطاء أو تأخير.</p>
+          </article>
+          <article class="card feature reveal" style="--d:3">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-key"/></svg></span>
+            <h3 data-i18n="w4.title">الموقع والنطاق ملكك</h3>
+            <p data-i18n="w4.desc">يُسجَّل النطاق باسمك، وتحصل على ملفات موقعك وصلاحيات الدخول كاملة.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. How We Work ===================== -->
+    <section class="section" id="how-we-work" aria-labelledby="how-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="how.eyebrow">آلية العمل</p>
+          <h2 id="how-title" data-i18n="how.title">أربع خطوات بسيطة لإطلاق موقعك</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3 data-i18n="h1.title">تواصل معنا عبر واتساب</h3>
+            <p data-i18n="h1.desc">أخبرنا عن نشاطك وما تحتاجه من موقعك.</p>
+          </li>
+          <li class="step reveal" style="--d:1">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3 data-i18n="h2.title">نرسل لك تصوراً مبدئياً</h3>
+            <p data-i18n="h2.desc">نشاركك فكرة أو نموذجاً أولياً للتصميم قبل البدء في التنفيذ.</p>
+          </li>
+          <li class="step reveal" style="--d:2">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3 data-i18n="h3.title">ننفّذ ونراجع معك</h3>
+            <p data-i18n="h3.desc">نبني الموقع ونعدّله حسب ملاحظاتك حتى يصبح جاهزاً.</p>
+          </li>
+          <li class="step reveal" style="--d:3">
+            <span class="step-num" aria-hidden="true">4</span>
+            <h3 data-i18n="h4.title">الإطلاق والدعم المستمر</h3>
+            <p data-i18n="h4.desc">نطلق موقعك ونبقى معك للدعم والتحديثات.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== 6. Sample Work (concepts, NOT real clients) ===================== -->
+    <section class="section section-soft" id="sample-work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="work.eyebrow">نماذج أعمال</p>
+          <h2 id="work-title" data-i18n="work.title">أمثلة على ما يمكن أن نصممه لك</h2>
+          <p class="section-sub" data-i18n="work.note">هذه نماذج تصميم توضيحية وليست مواقع لعملاء حقيقيين.</p>
+        </header>
+
+        <div class="grid grid-3">
+          <!-- Dental clinic concept -->
+          <article class="card work-card reveal" style="--accent:#0F766E; --accent-soft:#E6F4F2;">
+            <div class="work-mock" aria-hidden="true">
+              <div class="wm-browser">
+                <div class="wm-bar"><span class="wm-brand" data-i18n="m1.brand">عيادة الأسنان</span><span class="wm-menu"><i></i><i></i><i></i></span></div>
+                <div class="wm-body">
+                  <strong class="wm-title" data-i18n="m1.h">ابتسامة صحية تبدأ هنا</strong>
+                  <span class="line"></span><span class="line short"></span>
+                  <span class="wm-btns"><span class="wm-btn" data-i18n="m1.btn">احجز موعداً</span><span class="wm-btn ghost" data-i18n="m.call">اتصل بنا</span></span>
+                  <span class="wm-tiles"><i></i><i></i><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="work-body">
+              <p class="tag"><span class="badge-dot" aria-hidden="true"></span><span data-i18n="work.label">نموذج تصميم</span></p>
+              <h3 data-i18n="p1.title">موقع عيادة أسنان</h3>
+              <p data-i18n="p1.desc">حجز مواعيد سهل، عرض الخدمات، وموقع العيادة على الخريطة.</p>
+            </div>
+          </article>
+
+          <!-- Real estate agent concept -->
+          <article class="card work-card reveal" style="--d:1; --accent:#1E3A5F; --accent-soft:#EAF0F7;">
+            <div class="work-mock" aria-hidden="true">
+              <div class="wm-browser">
+                <div class="wm-bar"><span class="wm-brand" data-i18n="m2.brand">وسيط عقاري</span><span class="wm-menu"><i></i><i></i><i></i></span></div>
+                <div class="wm-body">
+                  <strong class="wm-title" data-i18n="m2.h">اعثر على منزلك القادم</strong>
+                  <span class="line"></span><span class="line short"></span>
+                  <span class="wm-btns"><span class="wm-btn gold" data-i18n="m2.btn">تصفح العقارات</span><span class="wm-btn ghost" data-i18n="m.call">اتصل بنا</span></span>
+                  <span class="wm-tiles"><i></i><i></i><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="work-body">
+              <p class="tag"><span class="badge-dot" aria-hidden="true"></span><span data-i18n="work.label">نموذج تصميم</span></p>
+              <h3 data-i18n="p2.title">ملف أعمال وسيط عقاري</h3>
+              <p data-i18n="p2.desc">عرض العقارات بالصور والتفاصيل مع زر تواصل مباشر.</p>
+            </div>
+          </article>
+
+          <!-- Contractor / maintenance concept -->
+          <article class="card work-card reveal" style="--d:2; --accent:#B45309; --accent-soft:#FDF3E7;">
+            <div class="work-mock" aria-hidden="true">
+              <div class="wm-browser">
+                <div class="wm-bar"><span class="wm-brand" data-i18n="m3.brand">مقاولات وصيانة</span><span class="wm-menu"><i></i><i></i><i></i></span></div>
+                <div class="wm-body">
+                  <strong class="wm-title" data-i18n="m3.h">نبني ونصون بجودة</strong>
+                  <span class="line"></span><span class="line short"></span>
+                  <span class="wm-btns"><span class="wm-btn" data-i18n="m3.btn">اطلب عرض سعر</span><span class="wm-btn ghost" data-i18n="m.call">اتصل بنا</span></span>
+                  <span class="wm-tiles"><i></i><i></i><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="work-body">
+              <p class="tag"><span class="badge-dot" aria-hidden="true"></span><span data-i18n="work.label">نموذج تصميم</span></p>
+              <h3 data-i18n="p3.title">شركة مقاولات وصيانة</h3>
+              <p data-i18n="p3.desc">عرض المشاريع والخدمات وطلب عرض سعر بسهولة.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. FAQ ===================== -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container container-narrow">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="faq.eyebrow">الأسئلة الشائعة</p>
+          <h2 id="faq-title" data-i18n="faq.title">إجابات على أكثر الأسئلة تكراراً</h2>
+        </header>
+
+        <div class="faq reveal">
+          <div class="faq-item">
+            <h3><button type="button" class="faq-q" id="faq-q1" aria-expanded="false" aria-controls="faq-a1"><span data-i18n="faq.q1">كم يستغرق إنشاء الموقع؟</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+            <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden><p data-i18n="faq.a1">يعتمد ذلك على حجم الموقع وعدد الصفحات. نوضّح لك المدة المتوقعة بعد فهم احتياجك وقبل البدء.</p></div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="faq-q" id="faq-q2" aria-expanded="false" aria-controls="faq-a2"><span data-i18n="faq.q2">هل تصممون مواقع باللغتين العربية والإنجليزية؟</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+            <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden><p data-i18n="faq.a2">نعم، نصمم مواقع عربية بالكامل أو ثنائية اللغة، مع ضبط اتجاه النص لكل لغة بشكل صحيح.</p></div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="faq-q" id="faq-q3" aria-expanded="false" aria-controls="faq-a3"><span data-i18n="faq.q3">من يملك النطاق (الدومين) والموقع؟</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+            <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden><p data-i18n="faq.a3">أنت المالك. يُسجَّل النطاق باسمك، وتحصل على ملفات الموقع وصلاحيات الدخول.</p></div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="faq-q" id="faq-q4" aria-expanded="false" aria-controls="faq-a4"><span data-i18n="faq.q4">هل تقدمون دعماً فنياً شهرياً؟</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+            <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden><p data-i18n="faq.a4">نعم، نقدم دعماً شهرياً يشمل الصيانة والتحديثات والنسخ الاحتياطية، ونحدد التفاصيل حسب احتياج موقعك.</p></div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="faq-q" id="faq-q5" aria-expanded="false" aria-controls="faq-a5"><span data-i18n="faq.q5">كيف أبدأ؟</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+            <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden><p data-i18n="faq.a5">أرسل لنا رسالة على واتساب واذكر نشاطك وما تحتاجه، وسنرد عليك لمناقشة التفاصيل.</p></div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="faq-q" id="faq-q6" aria-expanded="false" aria-controls="faq-a6"><span data-i18n="faq.q6">أين يقع مكتبكم؟</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+            <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden><p data-i18n="faq.a6">مكتبنا في دكا، بنغلاديش. نعمل مع عملائنا في المملكة العربية السعودية ودول الخليج عن بُعد، ونتواصل معهم مباشرة عبر واتساب في كل مراحل المشروع.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. Contact / CTA band ===================== -->
+    <section class="cta on-dark" id="contact" aria-labelledby="cta-title">
+      <div class="container cta-inner reveal">
+        <h2 id="cta-title" data-i18n="cta.title">ابدأ مشروعك اليوم</h2>
+        <p class="cta-sub" data-i18n="cta.sub">أرسل لنا رسالة على واتساب وسنرد عليك في أقرب وقت لمناقشة احتياجك.</p>
+        <a class="btn btn-white btn-xl" href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+          <span data-i18n="cta.btn">راسلنا على واتساب</span>
+        </a>
+        <p class="cta-number">
+          <span data-i18n="cta.numLabel">رقم الواتساب:</span>
+          <a href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener"><span dir="ltr">+880 1621-445454</span></a>
+        </p>
+
+        <!-- Real office address (transparency builds trust) -->
+        <address class="cta-address">
+          <span class="cta-address-label">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span data-i18n="addr.label">عنوان مكتبنا</span>
+          </span>
+          <span class="addr-text" lang="en" dir="ltr">House 7, Block C, Avenue 2, Chandrima Model Town, Mohammadpur, Dhaka, Bangladesh</span>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 9. Footer ===================== -->
+  <footer class="site-footer on-dark">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo logo-light" href="#home" data-i18n-aria="aria.home" aria-label="ريل تك - الصفحة الرئيسية">
+          <span class="logo-mark" aria-hidden="true">RT</span>
+          <span class="logo-text">
+            <span class="logo-ar" lang="ar">ريل تك</span>
+            <span class="logo-sep" aria-hidden="true">|</span>
+            <span class="logo-en" lang="en">Real Tech</span>
+          </span>
+        </a>
+        <p data-i18n="footer.desc">تصميم وتطوير المواقع، إصلاح الأخطاء، والدعم الفني للشركات والعيادات والمكاتب.</p>
+      </div>
+
+      <nav class="footer-col" aria-labelledby="footer-links-title">
+        <h2 class="footer-title" id="footer-links-title" data-i18n="footer.links">روابط سريعة</h2>
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="#why-us" data-i18n="nav.why">لماذا نحن</a></li>
+          <li><a href="#how-we-work" data-i18n="nav.how">آلية العمل</a></li>
+          <li><a href="#sample-work" data-i18n="nav.work">نماذج أعمال</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2 class="footer-title" data-i18n="footer.contact">تواصل</h2>
+        <ul>
+          <li>
+            <a class="footer-wa" href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span dir="ltr">+880 1621-445454</span>
+            </a>
+          </li>
+          <li>
+            <address class="footer-address">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              <span>
+                <span class="addr-text" lang="en" dir="ltr">House 7, Block C, Avenue 2, Chandrima Model Town, Mohammadpur, Dhaka, Bangladesh</span>
+              </span>
+            </address>
+          </li>
+          <li data-i18n="footer.serve">نخدم العملاء في المملكة العربية السعودية ودول الخليج عن بُعد</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p><span dir="ltr">© 2026 Real Tech</span> — <span data-i18n="footer.rights">جميع الحقوق محفوظة</span></p>
+    </div>
+  </footer>
+
+  <!-- ===================== 10. Floating WhatsApp button ===================== -->
+  <a class="wa-float" href="https://wa.me/8801621445454" data-wa="general" target="_blank" rel="noopener" data-i18n-aria="aria.waFloat" aria-label="تواصل معنا عبر واتساب">
+    <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+  </a>
+
+</body>
+</html>

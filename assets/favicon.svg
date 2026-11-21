@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Real Tech "RT" monogram -->
+  <rect width="64" height="64" rx="14" fill="#006C35"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">RT</text>
+  <rect x="20" y="47" width="24" height="3" rx="1.5" fill="#C9A227"/>
+</svg>
